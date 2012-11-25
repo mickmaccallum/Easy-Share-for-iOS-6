@@ -38,26 +38,26 @@ into your project and add your ```NSString```, ```UIImage``` and ```NSURL``` arg
 Keep in mind that you can pass ```nil``` to any of these arguments if you don't wish to use it.
 
 
-    ```[self easyShareTextWithFacebook:<#(NSString *)#> andImage:<#(UIImage *)#> andURL:<#(NSURL *)#>];```
+    [self easyShareTextWithFacebook:<#(NSString *)#> andImage:<#(UIImage *)#> andURL:<#(NSURL *)#>];
 
 
 
 If you aren't sure what to do with the line of code above, here's a more detailed example.
 
-    ```UIImage *myImage = [UIImage imageNamed:@"myAwesomeSharingImage"];```
-    ```NSString *myString = @"Some sweet text that I want to share";```
-    ```NSURL *myURL = [NSURL urlWithString:@"http://www.google.com/"];```
+    UIImage *myImage = [UIImage imageNamed:@"myAwesomeSharingImage"];
+    NSString *myString = @"Some sweet text that I want to share";
+    NSURL *myURL = [NSURL urlWithString:@"http://www.google.com/"];
 
-    ```[self easyShareTextWithFacebook:myString andImage:myImage andURL:myURL];```
+    [self easyShareTextWithFacebook:myString andImage:myImage andURL:myURL];
 
 If for example, you only wish to share a photo, you can pass ```nil``` to the arguments for text and URL.
 
-    ```[self easyShareTextWithFacebook:nil andImage:myImage andURL:nil];```
+    [self easyShareTextWithFacebook:nil andImage:myImage andURL:nil];
 
 
 To present a ```UIActivityViewController``` displaying all available sharing options use:
 
-    ```[self easyShareServiceAgnosticWithInputObjects:<#(NSArray *)#>];```
+    [self easyShareServiceAgnosticWithInputObjects:<#(NSArray *)#>];
 
 **Please note, printing is untested because I do not own an AirPrint compatible printer. Please let me know if you have any problems.
 
