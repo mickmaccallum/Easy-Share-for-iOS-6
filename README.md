@@ -63,11 +63,7 @@ To present a ```UIActivityViewController``` displaying all available sharing opt
 
 
 This should be all you need to successfully integrate this category into your project. All other built in sharing options follow these same rules.
-If you have any questions of concerns, please email me at MacCDevTeam (AT) gmail.com. A full list of included sharing options can be found below.
-
-
-Sharing Options:
-
+If you have any questions of concerns, please email me at MacCDevTeam (AT) gmail.com.
 
 
 
